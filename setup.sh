@@ -10,5 +10,7 @@ pip install keras
 
 pip install h5py
 
+apt-get instal git
+
 
 
