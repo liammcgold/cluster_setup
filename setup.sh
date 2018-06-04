@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
-wget -P ./ "https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh"
-
- yes |echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'|echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'| echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'|yes | bash Anaconda3-5.2.0-Linux-x86_64.sh
-
+python get-pip.py
 
 
 
-#bash Anaconda3-5.2.0-Linux-x86_64.sh | yes | echo -ne '\n'| echo -ne '\n'| echo -ne '\n'|  echo -ne '\n'|  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | |  |  |  | yes |
+
