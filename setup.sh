@@ -12,5 +12,10 @@ pip install h5py
 
 apt-get install git
 
+git clone https://github.com/liammcgold/u-net-tensorflow-
+
+cd u-net-tensorflow-
+
+python 
 
 
