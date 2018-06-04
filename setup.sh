@@ -16,6 +16,8 @@ git clone https://github.com/liammcgold/u-net-tensorflow-
 
 cd u-net-tensorflow-
 
-python 
+python test_bash.py
+
+
 
 
